@@ -1,0 +1,110 @@
+body {
+  background-image: url("https://c1.wallpaperflare.com/path/402/332/889/various-fit-fitness-health-0e1e23fef7d82cd692060b3e3073ce57.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #f5f5f5;
+}
+
+.workout-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.workout-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+.workout-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.workout-info {
+  margin-top: 15px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dfe3e6;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #2d2d2d;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 280px;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  background-color: #f5f5f5;
+  font-size: 15px;
+  color: #333;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #66b3ff;
+  outline: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #333333;
+}
+
+input[type="text"]:hover,
+input[type="number"]:hover {
+  border-color: #a6a6a6;
+}
